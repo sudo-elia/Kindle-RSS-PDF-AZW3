@@ -1,6 +1,6 @@
 module kindle_rss_pdf_azw3
 
-go 1.17
+go 1.23.0
 
 require (
 	github.com/SebastiaanKlippert/go-wkhtmltopdf v1.7.2
@@ -20,7 +20,7 @@ require (
 	github.com/modern-go/concurrent v0.0.0-20180228061459-e0a39a4cb421 // indirect
 	github.com/modern-go/reflect2 v0.0.0-20180701023420-4b7aa43c6742 // indirect
 	github.com/sirupsen/logrus v1.8.3 // indirect
-	golang.org/x/net v0.7.0 // indirect
-	golang.org/x/sys v0.5.0 // indirect
-	golang.org/x/text v0.7.0 // indirect
+	golang.org/x/net v0.38.0 // indirect
+	golang.org/x/sys v0.31.0 // indirect
+	golang.org/x/text v0.23.0 // indirect
 )
